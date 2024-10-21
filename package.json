@@ -1,0 +1,46 @@
+{
+  "name": "react-uploader-master",
+  "license": "MIT",
+  "description": "A simple prototype for uploading a photo by the user and previewing that photo to the user 👨‍💻",
+  "author": {
+    "name": "Mohammad Hossein Khadem al Mahdi",
+    "email": "khadem13359@gmail.com"
+  },
+  "keywords": [
+    "react-uploader-master",
+    "react-uploader",
+    "uploader",
+    "image-uploader",
+    "image-preview",
+    "react",
+    "library-uploader",
+    "library-react-uploader"
+  ],
+  "private": false,
+  "version": "1.0.5",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/khadem-mh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadem-mh/react-uploader-master"
+  },
+  "main": "./dist/Uploader.umd.js",
+  "module": "./dist/Uploader.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "path": "^0.12.7"
+  }
+}
